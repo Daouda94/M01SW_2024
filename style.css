@@ -2,22 +2,52 @@ body{
     margin: 0px;
     padding: 0px;
     font-style: New monospace;
-    font size: 16px;
+    font-size: 16px;
     color: #4C5454;
 }
-h1{
-    font size: 22px;
+section#presentation h1{
+    font-size: 22px;
     padding-left: 20px;
 }
-h2{
-    font size: 20px;
+section#presentation  h2{
+    font-size: 20px;
     padding-left: 50px;
 
 }
-section{
+section#presentation  p{
     padding-left: 50px;
 }
-img{
-    
+section#presentation  img#photoJournalLumineuxCIEL{
+    float: right;
+    width: 400px;
+}
+section#presentation  ul{
+     padding-left: 100px;
+}
+section#presentation  ol{
+     padding-left: 100px;
 }
 
+
+section#liste table{
+    border-collapse: collapse;
+    width: 400px;
+    margin: 50px;
+}
+section#liste{
+    border: 1px bold #ddd;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+section tr:hover{
+    background-color: #DDDDDD;
+}
+
+section#liste th{
+    padding: 12px 8px 20px 8px;
+    text-align: left;
+    background-color: #FF715B;
+    color: white;
+}
