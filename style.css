@@ -72,7 +72,7 @@ section#message label, section#message input, section#message select{
     color: #4C5454;
     font-size: 18px;
 }
-section#message select, input{
+section#message select, section#message input{
     box-sizing: border-box;
     background-color: #FF715B;
     border: 1px, solid , #4C5454;
@@ -83,7 +83,7 @@ section#message select, input{
     padding-right: 10px;
 }
 section#message label, section#message input{
-    margin: 30px;
+    margin-top: 30px;
 
 }
 section#message input{
